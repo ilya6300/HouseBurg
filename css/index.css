@@ -1,0 +1,140 @@
+@import url(./zeroing.css);
+body {
+    font-family: 'Inter', sans-serif;
+    background: black;
+    color: white;
+    max-width: 428px;
+    min-width: 320px;
+    /* width: 100%; */
+    position: relative;
+}
+
+.container {
+      height: 100vh;
+    max-width: 428px;
+    min-width: 320px;
+}
+.main {
+    display: flex;
+    height: 702px;
+}
+/* Продукция */
+
+.main-column-production {
+    margin-top: 10px;
+    overflow-y: auto;
+}
+.main-column-production::-webkit-scrollbar {
+    width: 0;
+  }
+  
+/* Бургеры */
+.main-column-production-burger {
+    padding: 20px 20px 0px 12px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex: 1 1 0;
+}
+.menu-burger-cls {
+display: block;
+}
+.main-column-production-burger-info h3 {
+    color: #366027;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 700;
+}
+.main-column-production-burger-info p {
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 400;
+}
+.main-column-production-burger-img img {
+    width: 100%;
+    min-width: 110px;
+}
+.main-column-production-burger-img {
+    position: relative;
+}
+.main-column-production-burger-img-sale {
+    content: '';
+    width: 45px;
+    height: 34px;
+    background: #DF9E4F;
+    border: 1px solid #366027;
+    position: absolute;
+    border-radius: 60%;
+    top: -20px;
+    right: -8px;
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.burger-sale {
+    margin: 0;
+    color: #DC0D0D;
+    font-weight: 800;
+    font-size: 11px;
+    font-style: normal;
+}
+.burger-weight {
+    font-size: 7px;
+    font-style: normal;
+    font-weight: 600;
+}
+.main-column-production-burger-img-sale span {
+    display: inline-block;
+}
+
+/* Бургеры конец */
+
+/* Напитки начало */
+.main-column-production-drink {
+    padding: 20px 20px 0px 12px;
+    display: flex;
+    align-content: space-between;
+    /* gap: 6px;
+    flex: 1 1 0; */
+}
+
+.main-column-production-drink-img img{
+    width: 100%;
+    min-width: 110px;
+}
+.main-column-production-drink-img-cube {
+    width: 100%;
+    max-width: 96px;
+    min-width: 90px;
+    margin: 0 17px;
+}
+.main-column-production-drink-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.main-column-production-drink-info-container h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+.main-column-production-drink-info-container p {
+    font-size: 10px;
+    font-weight: 500;
+}
+.main-column-production-price-and-weight {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-column-production-price {
+    font-size: 20px;
+    font-weight: 500;
+}
+.main-column-production-weight {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Напитки конец */
+

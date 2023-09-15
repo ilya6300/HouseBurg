@@ -1,0 +1,31 @@
+/* Footer */
+
+.footer {
+    height: 252px;
+    position: relative;
+    background: #000000;
+}
+.footer-container {
+    background: #AEAFAC;
+    opacity: 0.3;  
+    height: 252px;
+}
+.footer-container-info {
+    color: #000000;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 40px;
+    line-height: 30px;
+}
+.footer-info-bottom {
+    margin-top: 60px;
+}
+.footer-logo {
+    width: 110px;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

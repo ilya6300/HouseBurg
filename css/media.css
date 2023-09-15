@@ -1,0 +1,26 @@
+@media all and (max-width: 370px) {
+.main-column-production-burger-info P {
+    font-size: 11px;
+}
+}
+
+@media all and (max-width: 340px)  {
+    .main-column-production-burger,
+    .main-column-production-drink  {
+        padding: 20px 5px 0 0;
+        width: 79vw;
+    }  
+}
+
+@media all and (max-width: 395px)  {
+    .share-1-container-hit {
+        width: 100px;
+        top: -20px;
+        left: 0;
+    }
+    .share-1-container-fire {
+        width: 45px;
+        top: -20px;
+        right: 10%;
+    }
+}

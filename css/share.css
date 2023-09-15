@@ -1,0 +1,125 @@
+@import url(./zeroing.css);
+body {
+    font-family: 'Inter', sans-serif;
+    background: black;
+    color: white;
+    position: relative;
+    max-width: 428px;
+    min-width: 320px;
+}
+
+.container {
+    height: 100vh;
+    max-width: 428px;
+    min-width: 320px;
+    overflow: hidden;
+}
+
+
+
+/* Main */
+.main {
+    height: 604px;
+    display: flex;
+}
+
+/* Боковая новигация */
+
+.main-column-nav {
+    background: linear-gradient(180deg, rgba(35, 60, 26, 0.39) 46.35%, rgba(18, 39, 11, 0.42) 99.99%, rgba(17, 37, 10, 0) 100%);
+    width: 68px;
+    height: 100%;
+    /* display: flex;
+    flex-direction: column; */
+}
+.main-column-nav--nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    gap: 140px;
+}
+.main-column-nav--category {
+    color: rgba(255, 255, 255, 0.7);
+    transform: rotate(-90deg);
+    font-size: 25px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.main-column-nav--category.active {
+    transition: color 0.4s ease-in;
+    color: #DF9E4F;
+}
+.main-column-production {
+    width: 100%;
+}
+/* Продукция */
+.share-1-container {
+    max-height: 307px;
+    max-width: 281px;
+    margin: auto;
+    margin-top: 19px;
+    position: relative;
+}
+.boston {
+position: relative;
+right: 30%;
+top: 10%;
+z-index: -1;
+    /* margin-top: 60px !important;
+    background: url(../img/Boston.jpg) no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    height: 42.118vw;
+    display: block;
+    margin: auto;
+    margin-bottom: 18px;
+    max-width: 428px;
+    min-width: 320px;
+    width: 100%;
+    position: relative;
+    z-index: -1; */
+}
+.share-1-container-title {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+color: #366027;
+text-align: center;
+margin-bottom: 5px;
+}
+.share-1-container-price {
+    display: flex;
+    justify-content: space-evenly;
+}
+.share-old-price {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+text-decoration-line: line-through;
+}
+.share-new-price {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+
+color: #DC0D0D;
+}
+.share-1-container-hit {
+max-width: 110px;
+    position: absolute;
+    top: -40px;
+    left: -10%;
+}
+.share-1-container-fire {
+    max-width: 110px;
+    position: absolute;
+    top: -40px;
+    right: 0;
+}

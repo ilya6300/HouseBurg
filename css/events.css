@@ -1,0 +1,76 @@
+@import url(./zeroing.css);
+body {
+    font-family: 'Inter', sans-serif;
+    background: black;
+    color: white;
+}
+
+.container {
+    height: 100vh;
+    max-width: 428px;
+    min-width: 320px;
+}
+
+
+
+/* Main */
+.main {
+    height: 604px;
+    display: flex;
+}
+
+/* Боковая новигация */
+
+.main-column-nav {
+    background: linear-gradient(180deg, rgba(35, 60, 26, 0.39) 46.35%, rgba(18, 39, 11, 0.42) 99.99%, rgba(17, 37, 10, 0) 100%);
+    width: 68px;
+    height: 100%;
+    /* display: flex;
+    flex-direction: column; */
+}
+.main-column-nav--nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    gap: 140px;
+}
+.main-column-nav--category {
+    color: rgba(255, 255, 255, 0.7);
+    transform: rotate(-90deg);
+    font-size: 25px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.main-column-nav--category.active {
+    transition: color 0.4s ease-in;
+    color: #DF9E4F;
+}
+
+/* Продукция */
+
+
+
+.event-title {
+margin: 27px 0 42px 0;
+text-align: center;
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 28px;
+font-family: "Aclonica";
+}
+
+.event-text {
+max-width: 303px;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+margin: 0 0 49px 37px;
+font-family: "Aclonica";
+}
+.event-img {
+    width: 100%;
+    text-align: center;
+}

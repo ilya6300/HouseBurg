@@ -1,0 +1,52 @@
+.nav-menu-show {
+    display: block;
+    animation: nav_menu_show 0.8s forwards;
+}
+.nav-menu-hidden {
+    /* display: none; */
+    animation: nav_menu_hidden 1s forwards;
+}
+.menu-show {
+animation: menu_drink 1s forwards;
+}
+.button-hover {
+animation: animation_button_hover 5s forwards;
+}
+@keyframes nav_menu_show {
+    0% {
+        height: 0vh;
+    }
+    100% {
+        height: 100vh;
+    }
+}
+@keyframes nav_menu_hidden {
+    0% {
+        height: 100vh;
+    }
+    100% {
+        height: 0vh;
+    }
+}
+
+@keyframes menu_drink {
+    0% {
+    width: 85vw;
+      margin-left: 450px;
+    }
+    100% {
+    width: 85vw;
+    margin-left: 0;
+      }
+}
+@keyframes animation_button_hover {
+0% {
+box-shadow: 0 0 0px 0px #DC0D0D;
+}
+50% {
+    box-shadow: 0px 0px 18px 1px #dc0d0dad;
+}
+100% {
+    box-shadow: 0 0 0px 0px #DC0D0D;
+}
+}

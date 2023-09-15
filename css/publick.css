@@ -1,0 +1,9 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background: black;
+    color: white;
+    max-width: 428px;
+    min-width: 320px;
+    /* width: 100%; */
+    position: relative;
+}
